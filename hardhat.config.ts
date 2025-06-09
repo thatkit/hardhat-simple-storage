@@ -1,6 +1,9 @@
 import { HardhatUserConfig } from 'hardhat/config';
 import '@nomicfoundation/hardhat-toolbox';
 import 'dotenv/config';
+import 'solidity-coverage';
+
+// https://youtu.be/gyMwXuJrbJQ?t=33937
 
 const config: HardhatUserConfig = {
   solidity: '0.8.28',
